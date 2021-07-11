@@ -1,5 +1,5 @@
 # Terraform AWS network module
-This independent module creates 1 VPC, subnets based on number of AZs, internet gateway with public subnet attachment along with NAT gateway with provate subnet attachment
+This independent module creates 1 VPC, subnets based on number of AZs, internet gateway with public subnet attachment along with NAT gateway with private subnet attachment
 ## Usage
 ~~~
 module "my_network" {
